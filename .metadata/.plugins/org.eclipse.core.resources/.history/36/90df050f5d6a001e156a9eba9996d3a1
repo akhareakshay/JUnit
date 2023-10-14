@@ -1,0 +1,18 @@
+package com.codewithakshayy.junit;
+
+import junit.framework.TestCase;
+
+public class FixturesExample extends TestCase {
+
+	protected int val1, val2;
+
+	protected void setUp() {
+		val1 = 4;
+		val2 = 6;
+	}
+
+	public void add() {
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.codewithakshayy.junit;
+
+/*
+ * @BeforeClass
+ * 
+ * @AfterClass
+ * 
+ * @Before
+ * 
+ * @After
+ */
+
+public class FixturesExample {
+
+}

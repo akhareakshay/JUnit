@@ -1,0 +1,15 @@
+package com.codewithakshayy.junit;
+
+/*
+ * @BeforeClass - execute only once before calling any test case (method)
+ * 
+ * @AfterClass - execute only once after calling all test cases (methods)
+ * 
+ * @Before - executes before every test cases (methods)
+ * 
+ * @After - executes after every test cases (methods)
+ */
+
+public class FixturesExample {
+
+}

@@ -1,0 +1,9 @@
+
+public class TestJUnit {
+
+	@Test
+	public void testAdd() {
+
+	}
+
+}

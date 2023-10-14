@@ -1,0 +1,22 @@
+package com.codewithakshayy.junit;
+
+import org.junit.BeforeClass;
+
+/*
+ * @BeforeClass - execute only once before calling any test case (method)
+ * 
+ * @AfterClass - execute only once after calling all test cases (methods)
+ * 
+ * @Before - executes before every test cases (methods)
+ * 
+ * @After - executes after every test cases (methods)
+ */
+
+public class FixturesExample {
+
+	@BeforeClass
+	public void setUpClass() {
+		System.out.println("@BeforeClass - setUpClass");
+	}
+
+}
