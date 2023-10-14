@@ -44,7 +44,7 @@ public class FixturesExample {
 
 	@Test
 	public void runTest() {
-		System.out.println("First test case");
+		System.out.println("Inside the runTest()");
 	}
 
 	@Test

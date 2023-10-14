@@ -44,12 +44,8 @@ public class FixturesExample {
 
 	@Test
 	public void runTest() {
-		System.out.println("First test case");
-	}
-
-	@Test
-	public void runAnotherTest() {
-		System.out.println("Another test case");
+		System.out.println("@Test - runTest");
+		System.out.println("Inside the runTest()");
 	}
 
 }

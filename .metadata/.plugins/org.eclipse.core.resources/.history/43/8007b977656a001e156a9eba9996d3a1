@@ -20,36 +20,28 @@ public class FixturesExample {
 
 	@BeforeClass
 	public static void setUpClass() {
-		// executes only once before calling any method
 		System.out.println("@BeforeClass - setUpClass");
 	}
 
 	@AfterClass
 	public static void tearDownClass() {
-//		executes only once after completion of all method execution 
 		System.out.println("@AfterClass - tearDownClass");
 	}
 
 	@Before
 	public void setUp() {
-//		executes before every method call
 		System.out.println("@Before - setUp");
 	}
 
 	@After
 	public void tearDown() {
-//		executes after every method call
 		System.out.println("@After - tearDown");
 	}
 
 	@Test
 	public void runTest() {
-		System.out.println("First test case");
-	}
-
-	@Test
-	public void runAnotherTest() {
-		System.out.println("Another test case");
+		System.out.println("@Test - runTest");
+		System.out.println("Inside the runTest()");
 	}
 
 }
