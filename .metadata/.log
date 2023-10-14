@@ -353,3 +353,21 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:00:55.049
 !MESSAGE executing callback sts4.classpath.dtEQTleT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.707
+!MESSAGE Preparing classpath changed notification Employees Testing
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.708
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.709
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.709
+!MESSAGE buffering callback sts4.classpath.dtEQTleT Employees Testing false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.710
+!MESSAGE executing callback sts4.classpath.dtEQTleT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-14 18:02:03.714
+!MESSAGE executing callback sts4.classpath.dtEQTleT SUCCESS [done]
